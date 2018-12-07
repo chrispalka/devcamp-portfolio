@@ -1,4 +1,4 @@
-# FriendlyId Global Configuration
+ # FriendlyId Global Configuration
 #
 # Use this to set up shared configuration options for your entire application.
 # Any of the configuration options shown here can also be applied to single
