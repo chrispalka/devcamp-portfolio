@@ -61,3 +61,4 @@ gem 'devise', '~> 4.5'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
+gem 'palkaphoto_view_tool', git: 'https://github.com/cpalka87/palkaphoto_view_tool'
