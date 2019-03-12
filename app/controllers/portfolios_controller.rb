@@ -30,7 +30,7 @@ class PortfoliosController < ApplicationController
 	end
 
 	def edit
-		# ;lkd
+		
 	end
 
 	def show
