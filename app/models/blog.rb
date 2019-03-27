@@ -9,12 +9,12 @@ class Blog < ApplicationRecord
 
     has_many :comments, dependent: :destroy
 
-  	def self.special_blogs
-  		all
-  	end
+  	def self.recent_blogs
+  		order('created_at desc')
+    end
 
+    # def self.toggle_blog
+    #   where(status: 1)
+    # end
 
-  	# def self.featured_blogs
-  	# 	limit(2)
-  	# end
 end
