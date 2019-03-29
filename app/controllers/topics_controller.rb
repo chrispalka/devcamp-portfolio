@@ -1,4 +1,5 @@
 class TopicsController < ApplicationController
+  include WithBlogsConcern
 	layout 'blog'
 
   def index
