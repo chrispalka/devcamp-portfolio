@@ -234,6 +234,7 @@ h6, .h6 {
 
 .app-footer {
   color: white;
+  
 }
 
 .tech-news {
@@ -250,12 +251,17 @@ h6, .h6 {
 }
 
 .app-card-container {
-  color: black;
+  color: white;
   text-align: left;
+  padding-bottom: 50p
 }
 
 .app-card-container > .card {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #1f1f2e;
 }
 
 .profile-img {
@@ -263,7 +269,7 @@ h6, .h6 {
 }
 
 .app-card-container a {
-  color: blue;
+  color: #668cff;
 }
 
 .card-block {
